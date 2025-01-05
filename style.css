@@ -1,0 +1,110 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+font-family: 'Figtree';
+background-color: hsl(47, 88%, 63%);
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.card{
+
+    width: 26.67%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 20px;
+
+}
+
+.card > picture > img{
+
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+
+}
+
+.category{
+
+    background-color: hsl(47, 88%, 63%);
+    width: 23.44%;
+    height: 14.76%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 14px;
+
+}
+
+.publish_date > p{
+
+    font-size: 14px;
+
+}
+
+
+.title > p{
+
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.description > p{
+
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.author{
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.author > picture{
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display: flex;
+
+}
+
+.author > picture > img{
+
+    object-fit: cover; 
+    height: auto;
+    width:50%;
+
+}
