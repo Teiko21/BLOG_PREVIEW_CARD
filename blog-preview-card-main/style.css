@@ -1,0 +1,130 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--color-primary-yellow);
+
+}
+
+.card {
+
+    border-radius: 20px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background-white);
+
+}
+
+.blog_image {
+
+    margin: 23px;
+
+}
+
+img {
+
+    border-radius: 10px;
+
+}
+
+.category {
+
+    background-color: var(--color-primary-yellow);
+    border: 0;
+
+}
+
+.content > .category {
+
+    font-family: var(--font-family-base);
+    line-height: var(--line-height-default);
+    font-size: var(--text-sm);
+    color: var(--color-secondary-gray-950);
+    font-weight: var(--font-weight-bold);
+    margin-left: 24px;
+    margin-bottom: 17px;
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+
+}
+
+.publish_date {
+
+    margin-left: 24px;
+    font-family: var(--font-family-base);
+    line-height: var(--line-height-default);
+    font-size: var(--text-sm);
+    color: var(--color-secondary-gray-950);
+
+}
+
+.title {
+
+    font-size: var(--text-xl);
+    line-height: var(--line-height-default);
+    font-family: var(--font-family-base);
+    color: var(--color-secondary-gray-950);
+    margin-left: 24px;
+    margin-top: 27px;
+    margin-bottom: 29px;
+
+}
+
+.description {
+
+    margin-left: 24px;
+    font-family: var(--font-family-base);
+    font-size: var(--text-base);
+    color: var(--color-secondary-gray-500);
+    line-height: var(--line-height-default);
+    margin-bottom: 30px;
+
+}
+
+.author {
+
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin-left: 24px;
+  margin-bottom: 23px;
+  
+
+}
+
+.author > img {
+
+    width: 32px;
+    height: 32px;
+
+}
+
+.author > h2 {
+
+    font-family: var(--font-family-base);
+    font-size: var(--text-sm);
+    line-height: var(--line-height-default);
+    color: var(--color-secondary-gray-950);
+    font-weight: var(--font-weight-bold);
+
+}

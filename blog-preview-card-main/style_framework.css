@@ -19,8 +19,8 @@
 
     /* Height of text */
 
-    --text-xl: 24;
-    --text-base: 16;
+    --text-xl: 24px;
+    --text-base: 16px;
     --text-sm: 14px;
 
     /* Line-height */
